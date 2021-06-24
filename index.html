@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Bootstrap file -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font-Awesome -->
+    <script
+      src="https://kit.fontawesome.com/02b5c565be.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Slider -->
+
+    <link rel="stylesheet" type="text/css" href="Slider/css/lightslider.css" />
+    <!--Jquery-->
+    <script type="text/javascript" src="Slider/js/JQuery3.3.1.js"></script>
+    <script type="text/javascript" src="Slider/js/lightslider.js"></script>
+
+    <title>My Folio</title>
+  </head>
+  <body>
+
+
+      <!-- Modal -->
+      <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content  my-modal">
+            <div class="modal-header my-modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Attention</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body my-modal-body">
+              Hello My Viewer,<br>
+              Hope you are doing well. It's me Fahad's Portfolio.<br><br> I'm currently not responsive. My appologies for inconveniency. Fahad is currently working on me, soon you will get a Respsonive Portfolio.<br><br>
+              If your are seeing this on Mobile Phone OR other small screen devices you have to switched to a Laptop/Monitor screen to check me in my appropriate size.<br><br>
+              <span style="color: #fdaf42; font-weight: lighter;">Thank you for your cooperation</span>
+            </div>
+            <div class="modal-footer my-modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- Header -->
+    <section class="intro-section">
+      <nav class="nav-bar d-flex py-4">
+        <!-- nav-logo -->
+        <div class="px-5 col-4 nav-logo text-center fs-5 text-light">
+          <img src="./images/my-logo.svg" alt="" />
+          <span>Fahad</span>
+        </div>
+
+        <div class="col-8 nav-links text-center text-uppercase fw-lighter">
+          <!-- nav-links -->
+          <a href="#a-link" class="nav-link-item ab-nav">About</a>
+          <a href="#p-link" class="nav-link-item work-nav">Work</a>
+          <a href="#b-link" class="nav-link-item blog-nav">Blogs</a>
+          <a href="#t-link" class="nav-link-item test-nav">Testimonial</a>
+          <a href="#c-link" class="nav-link-item cont-nav">Contact</a>
+          <!-- lets chat button -->
+          <a href="" class="letsChat-btn">Let's chat</a>
+        </div>
+      </nav>
+
+      <!-- Intro Headings -->
+      <div class="main-intro d-flex">
+        <div class="col-5 intro-text-main-text d-flex flex-column">
+          <p class="full-stack-text">Full Stack</p>
+          <p class="web-dev-text">Web Developer</p>
+          <p class="tagline-text">
+            <span style="color: #00d5be; font-weight: 500">|-</span> A creative
+            Web Developer and Designer
+          </p>
+
+          <div class="intro-btns mt-4">
+            <a href="Fahad's Resume.pdf" download="" class="btn-1"  >Download CV</a>
+            <a href="https://github.com/fahadhassan1213"  target= "_blank" class="btn-2">Learn More</a>
+          </div>
+        </div>
+        <div class="col-6 img-div"></div>
+      </div>
+    </section>
+
+    <!-- Abouts Section -->
+    <section class="about-section">
+      <div class="about-main">
+        <nav class="about-nav text-uppercase d-flex">
+          <a href="" id = "a-link" class="about-nav-item about">About</a>
+          <a href="" id = "ms-link" class="about-nav-item services">My Services</a>
+          <a href="" id = "me-link" class="about-nav-item experties">My Experties</a>
+          <a href="" id = "b-link" class="about-nav-item blogs">Blogs</a>
+        </nav>
+
+        <div class="about-container">
+          <!-- My Experties -->
+          <div class="container about-sub row py-5" id="about-link">
+            <div class="col-6 about-vector">
+              <img
+                src="./images/about-vector.svg"
+                alt=""
+                class="about-vector-img"
+              />
+            </div>
+            <div class="col-6 about-sub-details">
+              <small class="text-uppercase">about me</small>
+              <h1 class="whyHire-heading">
+                Why Hire me for your next project<span
+                  style="color: #00d5be; font-weight: bolder"
+                  >?</span
+                >
+              </h1>
+              <p>
+                Meet my startup developing agency
+                <a
+                  href="https://www.thedevnation.com/"
+                  target="_blank"
+                  style="color: #fdaf42; text-decoration: none"
+                  >DevNation.</a
+                >
+                Currently I'm working as a Full Stack Developer Fellow at
+                DevNation. Before that I've worked as a
+                <a
+                  href="https://www.fiverr.com/fahadhassan_1?up_rollout=true"
+                  target="_blank"
+                  style="color: #fdaf42; text-decoration: none"
+                  >Freelancer</a
+                >
+                and as a
+                <a style="color: #fdaf42; text-decoration: none">UI&UX</a>
+                Designer
+              </p>
+              <p>
+                I love to work in developing Responsive Websites and Web
+                Applications and User Interface Designing. Because I always love
+                to solve Web problems and to find better and easy way to solve
+                it. I always try my best to develop interactive websites with
+                best user experience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section" id="p-link">
+      <!-- Main Heading -->
+      <div class="container projects-section-headings d-flex">
+        <div class="p-sec-headings">
+          <small class="showcase-heading text-uppercase">showcase</small>
+          <h1 class="project-heading">My Projects</h1>
+        </div>
+
+        <!-- <div class="p-section-btns">
+          <a href="" class="Dev">Developement</a>
+          <a href="" class="Ds">Designs</a>
+        </div> -->
+      </div>
+
+      <!-- List of projects -->
+      <div class="container projects-container developed">
+        <ul id="autoWidth" class="cs-hidden">
+          <!-- 1------------------------- -->
+          <li class="item-a dev-projects">
+            <div class="card pro-card" style="width: 20rem">
+              <img
+                src="/images/projects imgs/Pomodoro timer.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <small class="project-type">Web app</small>
+                <h5 class="card-title text-light">Pomodoro Timer</h5>
+                <p class="card-text text-light fw-lighter">
+                  A Pomodoro Timer with a work and break session created using
+                  HTML CSS and Javascript.
+                </p>
+                <a
+                  href="https://pomodorotimer1213.netlify.app/"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >Let's have a look</a
+                >
+              </div>
+            </div>
+          </li>
+
+          <!-- 2------------------------- -->
+          <li class="item-b dev-projects">
+            <div class="card pro-card" style="width: 20rem">
+              <img
+                src="./images/projects imgs/weatherApp.svg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <small class="project-type">Web app</small>
+                <h5 class="card-title text-light">Weather Teller</h5>
+                <p class="card-text text-light fw-lighter">
+                  A live Weather Teller app based on city search created using
+                  JS HTML CSS and AcuWeather APIs .
+                </p>
+                <a
+                  href="https://weatherteller1213.netlify.app/"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >Let's have a look</a
+                >
+              </div>
+            </div>
+          </li>
+
+          <!-- 3------------------------- -->
+          <li class="item-c dev-projects">
+            <div class="card pro-card" style="width: 20rem">
+              <img
+                src="./images/projects imgs/developerQuiz.svg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <small class="project-type">Web app</small>
+                <h5 class="card-title text-light">Developer Quiz</h5>
+                <p class="card-text text-light fw-lighter">
+                  A Professional Developer Quiz with result progress bar created
+                  using JS HTML and CSS.
+                </p>
+                <a
+                  href="https://developerquiz1213.netlify.app/"
+                  class="btn btn-primary"
+                  >Let's have a look</a
+                >
+              </div>
+            </div>
+          </li>
+
+          <!-- 4------------------------- -->
+          <li class="item-d dev-projects">
+            <div class="card pro-card" style="width: 20rem">
+              <img
+                src="/images/projects imgs/Digital Clock.svg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <small class="project-type">Web app</small>
+                <h5 class="card-title text-light">A Digital Clock</h5>
+                <p class="card-text fw-lighter text-light">
+                  A Digital Clock with Day Date and Time created using HTML CSS
+                  and Javascript.
+                </p>
+                <a
+                  href="https://moderndigitalclock.netlify.app/"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >Let's have a look</a
+                >
+              </div>
+            </div>
+          </li>
+
+          <!-- 5------------------------- -->
+          <li class="item-e dev-projects">
+            <div class="card pro-card" style="width: 20rem">
+              <img
+                src="./images/projects imgs/Recipe app.svg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <small class="project-type">Web app</small>
+                <h5 class="card-title text-light">Recipe App</h5>
+                <p class="card-text text-light fw-lighter">
+                  A simple and clean Recipe app to add or delelte your daily
+                  recipes created using Firebase HTML CSS and JS
+                </p>
+                <a
+                  href="https://recipesdatabase.netlify.app/"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >Let's have a look</a
+                >
+              </div>
+            </div>
+          </li>
+          <li class="item-e dev-projects">
+            <div class="card pro-card" style="width: 20rem">
+              <img
+                src="./images/projects imgs/rest-menu.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <small class="project-type">Web app</small>
+                <h5 class="card-title text-light">Restaurent Menu</h5>
+                <p class="card-text text-light fw-lighter">
+                  A Responsive Restaurent-Menu created by using HTML CSS
+                  Javascript and Firebase Firestore.
+                </p>
+                <a
+                  href="https://restaurentmenu1213.netlify.app/"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >Let's have a look</a
+                >
+              </div>
+            </div>
+          </li>
+          <li class="item-e dev-projects">
+            <div class="card pro-card" style="width: 20rem">
+              <img
+                src="./images/projects imgs/Todo-tasks.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <small class="project-type">Web app</small>
+                <h5 class="card-title text-light">Todo Tasks App</h5>
+                <p class="card-text text-light fw-lighter">
+                  A Todo Tasks Web app that help you to list your daily tasks
+                  routines created using Javascript HTML CSS
+                </p>
+                <a
+                  href="https://todo-tasks-app-1213.netlify.app/"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >Let's have a look</a
+                >
+              </div>
+            </div>
+          </li>
+          <li class="item-e des-projects">
+            <div class="card pro-card" style="width: 20rem">
+              <img
+                src="./images/projects imgs/web-designs.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <small class="project-type">Web Designs</small>
+                <h5 class="card-title text-light">Websites Designs</h5>
+                <p class="card-text text-light fw-lighter">
+                  Complete Professional Websites designs with Prototyping
+                  created using Adobe XD
+                </p>
+                <a href="#" target="_blank" class="btn btn-primary"
+                  >Let's have a look</a
+                >
+              </div>
+            </div>
+          </li>
+          <li class="item-e des-projects">
+            <div class="card pro-card" style="width: 20rem">
+              <img
+                src="./images/projects imgs/illustration.svg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <small class="project-type">Illustrations</small>
+                <h5 class="card-title text-light">Adobe Illustrations</h5>
+                <p class="card-text text-light fw-lighter">
+                  Some of my startup illustrations created using Adobe
+                  Illustrator
+                </p>
+                <a href="#" target="_blank" class="btn btn-primary"
+                  >Let's have a look</a
+                >
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonial-section">
+      <div class="container testimonial-section-headings" id="t-link">
+        <small class="text-uppercase testimonial-txt">Testimonial</small>
+        <h1 class="hcs-heading">Happy Clients Sayings</h1>
+      </div>
+
+      <div class="container clients-saying">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card tes-card">
+              <div class="card-body tes-card-body">
+                <div class="tesImage1"></div>
+                <h5 class="card-title client-name">Muhmmad Reshaeel</h5>
+                <small>Front-End Web Developer</small>
+                <p class="card-text client-msg">
+                  Fahad is a creative full stack web developer. He can work well with JavaScript and has a great vision for graphic designing.
+                   His work is really appreciative and he is building himself through hard work.
+                </p>
+                <a href="https://www.linkedin.com/feed/update/urn:li:activity:6797839182065750016?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A6797839182065750016%2C6811270129259827200%29" target="_blank" class="btn btn-primary client-learnMore-btn"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card tes-card">
+              <div class="card-body  tes-card-body">
+                <div class="tesImage2"></div>
+                <h5 class="card-title client-name">Talha Munir</h5>
+                <small>MERN Developer</small>
+                <p class="card-text client-msg">
+                  Fahad is an expert graphic designer and coder, his graphic skills are the top status. 
+                  I have seen his work, that's why I am saying openly extremely confident. A Hard working developer with a great strength.
+                </p>
+                <a href="https://www.linkedin.com/feed/update/urn:li:activity:6797839182065750016?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A6797839182065750016%2C6811341702847045632%29" class="btn btn-primary client-learnMore-btn"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social Media / Contact-Section -->
+    <section class="contact-section" id="c-link">
+      <div class="container cont-section-headings">
+        <small class="socialMedia-heading text-uppercase">Social Media</small>
+        <h1 class="letsBe-heading">Let's Be Friends</h1>
+      </div>
+
+      <div class="container contact-container">
+        <div class="row">
+          <div class="col-3">
+            <div class="content">
+              <a
+                href="https://www.linkedin.com/in/fahad-hassan-70060320b/"
+                target="_blank"
+              >
+                <h4 class="sm-heading color-class">LinkedIn</h4>
+                <small class="content-sub color-class"
+                  >Professional social profile</small
+                >
+              </a>
+            </div>
+            <i class="fab fa-linkedin-in"></i>
+          </div>
+          <div class="col-3">
+            <div class="content">
+              <a href="https://github.com/fahadhassan1213" target="_blank">
+                <h4 class="sm-heading color-class">GitHub</h4>
+                <small class="content- color-class"
+                  >Professional social profile</small
+                >
+              </a>
+            </div>
+            <i class="fab fa-github"></i>
+          </div>
+          <div class="col-3">
+            <div class="content">
+              <a href="https://twitter.com/FahadHa51773545" target="_blank">
+                <h4 class="sm-heading color-class">Twitter</h4>
+                <small class="content-sub color-class"
+                  >Professional social profile</small
+                >
+              </a>
+            </div>
+            <i class="fab fa-twitter"></i>
+          </div>
+          <div class="col-3">
+            <div class="content">
+              <a
+                href="https://web.facebook.com/fahad.hassan.9847867"
+                target="_blank"
+              >
+                <h4 class="sm-heading color-class">Facebook</h4>
+                <small class="content-sub color-class"
+                  >Professional social profile</small
+                >
+              </a>
+            </div>
+            <i class="fab fa-facebook"></i>
+          </div>
+          <div class="col-3">
+            <div class="content">
+              <a
+                href="https://www.instagram.com/fahad_malik_0/"
+                target="_blank"
+              >
+                <h4 class="sm-heading color-class">instagram</h4>
+                <small class="content-sub color-class"
+                  >Professional social profile</small
+                >
+              </a>
+            </div>
+
+            <i class="fab fa-instagram"></i>
+          </div>
+          <div class="col-3">
+            <div class="content">
+              <a href="https://dev.to/fahadhassan1213" target="_blank">
+                <h4 class="sm-heading color-class">Dev To</h4>
+                <small class="content-sub color-class"
+                  >Professional social profile</small
+                >
+              </a>
+            </div>
+            <i class="fab fa-dev"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lets Talk Section -->
+    <section class="letsTalk-section">
+      <div class="container letsTalk-headings d-flex" id="cont-link">
+        <div class="footerLogo d-flex align-items-center">
+          <img src="./images/my-logo.svg" alt="" class="logo-img" />
+          <h3 class="logo">Fahad</h3>
+        </div>
+        <h1 class="lt-heading">
+          Let's Talk <span style="color: #fdaf42">?</span>
+        </h1>
+        <a href="" class="letsChats-btn text-uppercase">Let's Chat</a>
+      </div>
+
+      <div class="tabs-links">
+        <a href="#a-link" class="tabs-nav-link-item">About</a>
+        <a href="#p-link" class="tabs-nav-link-item">Works</a>
+        <a href="#b-link" class="tabs-nav-link-item">Blogs</a>
+        <a href="#t-link" class="tabs-nav-link-item">Testimonial</a>
+        <a href="#c-link" class="tabs-nav-link-item">Contact</a>
+      </div>
+      <div class="copyRight-div">
+        <span class="copyRight"
+          ><i class="far fa-copyright"></i> 2021 Fahad Hassan</span
+        >
+      </div>
+    </section>
+
+    <!-- slider script -->
+    <script src="./Slider/js/script.js"></script>
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+          $('#exampleModal').modal('show');
+       });
+ </script>
+  </body>
+</html>
