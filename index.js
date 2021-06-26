@@ -18,39 +18,11 @@ proj_btn.addEventListener('click',e=>{
   }
 })
 
-document.readyState()
-
 
 //Projects section btns
 const p_btn = document.querySelector('.p-section-btns')
 //All Projects
 const allProjects  = document.querySelectorAll('.projects-container ul li')
-
-//Event Listner on Projects btns
-// proj_btn.addEventListener('click', e =>{
-//   e.preventDefault();
-//   if(e.target.classList.contains('Dev')){
-//     allProjects.forEach( (p) =>{
-//       if(p.classList.contains('des-projects')){
-//         p.classList.add('d-none')
-//       }
-//       else{
-//         p.classList.remove('d-none')
-//       }
-//     })
-//   }
-//   else if(e.target.classList.contains('Ds')){
-//     allProjects.forEach((p) => {
-//       if(p.classList.contains('dev-projects')){
-//           p.classList.add('d-none')
-//         }
-//       else{
-//         p.classList.remove('d-none')
-//       }
-//       })
-//     }
-// })
-
 
 
 
